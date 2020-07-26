@@ -1,0 +1,94 @@
+
+/* NAVBAR */
+
+    /* Add a black background color to the top navigation */
+    .navbar {
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .navitems{
+        float: right;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .nav-item {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+       
+    }
+    
+    /* Change the color of links on hover */
+    .nav-item:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        color: black;
+    }
+    
+    /* Add an active class to highlight the current page */
+    /* .nav-item.active {
+        background-color: black;
+        color: white;
+    }
+     */
+
+    /* Hide the link that should open and close the topnav on small screens */
+    .navicon {
+        display: none;
+    }
+
+    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Brand"). Show the link that contains should open and close the topnav (.icon) */
+    @media screen and (max-width: 800px) {
+        .nav-item {display: none;}
+        .navicon {
+        float: right;
+        display: block;
+        }
+    }
+    
+    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+    @media screen and (max-width: 800px) {
+        a.navicon {
+            margin-right: 30px;
+            margin-top: 7px;
+            font-size: 20px;
+            color: black;
+        }
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+        .navitems.responsive {position: relative;}
+        .navitems.responsive a.navicon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 30px;
+        margin-top: 7px;
+        font-size: 20px;
+        color: black;
+        }
+        .navitems.responsive .nav-item {
+        float: none;
+        display: block;
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 15px;
+        padding: 0;
+        }
+
+        .navitems.responsive #home-item {
+            margin-top: 45px;
+        }
+    }
+
+/* NAVBAR */
