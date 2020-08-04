@@ -577,8 +577,43 @@ opacity:1;
 .about_banner{
     width: 100%;
     height: 300px;
-    background-image: url(/media/About_banner.jpg);
+    background: url(/media/banner.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.tabnav{
+ text-align: center;
+}
+
+.tab{
+    display: flex; justify-content: center;
+}
+
+.nav-item a{
+    color: #292929 !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #0099ab !important;
+    background-color: #00000b00;
+}
+
+.gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    }
+    	
+.gal img{ 
+    width: 100%; 
+    padding: 7px 0;
+}
+
+@media (max-width: 500px) {		
+		.gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	}		
+	}
