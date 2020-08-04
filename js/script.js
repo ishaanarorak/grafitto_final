@@ -1,7 +1,3 @@
-// WOW JS
-
-new WOW().init();
-
 
 $(document).ready(function() {
 	$('.popup-gallery1').magnificPopup({
@@ -82,6 +78,13 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+// WOW JS
+
+new WOW().init();
+
+
 
 // Open youtube Button
 
