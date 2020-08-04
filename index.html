@@ -5,8 +5,11 @@
       <meta http-equiv='X-UA-Compatible' content='IE=edge'>
       <title>Home</title>
       <meta name='viewport' content='width=device-width, initial-scale=1'>
-      <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
       <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
+      <link rel="stylesheet" href="css/owl.carousel.css">
+      <link rel="stylesheet" href="css/owl.theme.default.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
       <script src="https://kit.fontawesome.com/1b9375a91d.js" crossorigin="anonymous"></script>
 
   </head>
@@ -16,7 +19,11 @@
 
     <div class="container-fluid main-container">
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand"></a>
+        <a class="navbar-brand">
+          <video class="" height="80" width="180" autoplay> 
+            <source src="media/Logo.webm" >
+          </video>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
             <i class="fas fa-bars"></i>
@@ -33,20 +40,15 @@
           </div>
         </div>
       </nav>
-  
-      <!-- NAVBAR -->
-  
-      <!-- LOGO  -->
-      <div class="container logo-container mb-3 mx-0">
-        <img class="logo" src="./css/media/Logo Reveal_1 (1).gif">
-      </div>
-      <!-- LOGO  -->
+    </div>
+      <div class="main">
+              <!-- NAVBAR -->
   
       <!-- SECTION-1  -->
       <div class="container-fluid sec1-container">
         <div class="row">
           <div class="col-md-6">
-            <div class="container sec1-heading p-2">
+            <div class="container sec1-heading p-2" style="height: 55vh;">
               <h1>
                 We're a 
                 <span class="sdw">digital</span><br>
@@ -54,23 +56,18 @@
               </h1>
             </div>
             <div class="container button">
-              <button class="reel-btn my-5 hvr-bounce-to-right">
+              <a class="popup-youtube reel-btn my-5 hvr-bounce-to-right" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
                 <span>
                   VIEW OUR REEL
-                </span>
-                
-              </button>
+                </span>   
+              </a>
             </div>
           </div>
   
           <div class="col-md-6">
-            <!-- <div class="container heading">
-              <h1>
-                We're a 
-                <span class="txt-shadow">digital</span><br>
-                <span class="txt-shadow">agency.</span> 
-              </h1>
-            </div> -->
+            <video autoplay loop width="240px">
+              <source src="media/Side animation.mp4" type="video/mp4">
+              </video>
           </div>
         </div>
       </div>
@@ -110,66 +107,50 @@
 
       <!-- SECTION-3  -->
 
-      <div class="container-fluid sec3-container">
+      <div class="sec3-container">
         <div class="sec3-heading">
           <h1>Services</h1>
           <h6>WE WORK WITH YOU, NOT FOR YOU</h6>
         </div>
-        <div class="cards mt-4">
-          <div class="row">
-            <div class="col-md-4 px-0">
-              <div class="card-inner hvr-sweep-to-top" style="background-color: #e2e2da;">
-                <div class="card-img pb-0">
-                  <i class="fas fa-pen m-5"></i>
-                </div>
-                <div class="card-heading">
-                  <h6>Graphic Designing</h6>
-                </div>
-                <div class="card-description p-3">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis excepturi culpa at aut maxime doloremque recusandae tempore amet voluptates esse nostrum itaque, impedit delectus sint quas porro. Ullam, sint. At?
-                  </p>
-                  
-                </div>
-                <button class="card-btn mt-4 mb-3">SEE MORE</button>
+        <div class="cards my-4">
+          <div class="row set-ht">
+              <div class="col-lg-4 col-md-12">
+                  <div class="card-inner hvr-sweep-to-top" style="background-color: #ededed;">
+                      <i class="fas fa-mobile-alt fa-stack white_fnt my-2"></i>
+                              <h3 class="my-2">Graphic designing</h3>
+                              <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis 
+                                  maiores dolores recusandae provident reiciendis, 
+                                 facilis optio fuga obcaecati hic. Placeat ut nesciunt harum.</p>   
+                                 <button class="card-btn mt-4 mb-3 popup-with-zoom-anim" href="#small-dialog">SEE MORE</button>
+                  </div>
+                  <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                    <h1>Dialog example</h1>
+                    <p>This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. Only for show. He who searches for meaning here will be sorely disappointed.</p>
+                  </div>
               </div>
-            </div>
-            <div class="col-md-4 px-0">
-              <div class="card-inner hvr-sweep-to-top" style="background-color:white;">
-                <div class="card-img pb-0">
-                  <i class="fas fa-pen m-5"></i>                
-                </div>                
-                <div class="card-heading">
-                  <h6>Graphic Designing</h6>
-                </div>
-                <div class="card-description p-3">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis excepturi culpa at aut maxime doloremque recusandae tempore amet voluptates esse nostrum itaque, impedit delectus sint quas porro. Ullam, sint. At?
-                  </p>
-                </div>
-                <button class="card-btn mt-4 mb-3">SEE MORE</button>
+  
+              <div class="col-lg-4 col-md-12">
+                  <div class="card-inner hvr-sweep-to-top" style="background-color: #ededed;">
+                      <i class="fas fa-mobile-alt fa-stack white_fnt my-2"></i>
+                              <h3 class="my-2">Illustration Artwork</h3>
+                              <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis 
+                                  maiores dolores recusandae provident reiciendis, 
+                                 facilis optio fuga obcaecati hic. Placeat ut nesciunt harum.</p>
+                                 <button class="card-btn mt-4 mb-3">SEE MORE</button>    
+                  </div>
               </div>
-            </div>
-            <div class="col-md-4 px-0">
-              <div class="card-inner hvr-sweep-to-top" style="background-color: #e2e2da;">
-                <div class="card-img pb-0">
-                  <i class="fas fa-pen m-5"></i>                 
-                </div>                
-                <div class="card-heading">
-                  <h6>Graphic Designing</h6>
-                </div>
-                <div class="card-description p-3">
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis excepturi culpa at aut maxime doloremque recusandae tempore amet voluptates esse nostrum itaque, impedit delectus sint quas porro. Ullam, sint. At?
-                  </p>
-                </div>
-                <button class="card-btn mt-4 mb-3">SEE MORE</button>
+              <div class="col-lg-4 col-md-12">
+                  <div class="card-inner hvr-sweep-to-top" style="background-color: #ededed;">
+                      <i class="fas fa-mobile-alt fa-stack white_fnt my-2"></i>
+                              <h3 class="my-2">Motion Graphics</h3>
+                              <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis 
+                                  maiores dolores recusandae provident reiciendis, 
+                                 facilis optio fuga obcaecati hic. Placeat ut nesciunt harum.</p>
+                                 <button class="card-btn mt-4 mb-3">SEE MORE</button>    
+                  </div>
               </div>
-            </div>
-
-          </div>
-
-        </div>
+      </div>
+  
       </div>
 
       <!-- SECTION-3  -->
@@ -236,12 +217,47 @@
 
       <!-- SECTION-4  -->
 
-
       <!-- SECTION-5  -->
-
-
-      <!-- SECTION-5  -->
-
+      <div class="section-5">
+        <section class="testimonials">
+            <div class="container">
+                <div class="title">
+                   <h1>My Clients</h1>
+                </div>
+                <div class="slider-indicator">
+                   <img src="media/client-01.png" class="active" alt="img" data-id="0" />
+                   <img src="media/client-02.png" alt="img" data-id="1" />
+                   <img src="media/client-03.png" alt="img" data-id="2" />
+               </div>
+                <div class="slider">
+                    <div class="slide active">
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                       Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                       <div class="client-info">
+                           <h3>Gourge Gam</h3>
+                           <span>Founder at Gikio</span>
+                       </div>
+                    </div>
+                    <div class="slide">
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                       Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                       <div class="client-info">
+                           <h3>Pooja Singh</h3>
+                           <span>Founder at KrimSim</span>
+                       </div>
+                    </div>
+                    <div class="slide">
+                        <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis. 
+                       Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque. "</p>
+                       <div class="client-info">
+                           <h3>Rinki Paul</h3>
+                           <span>Founder at Chamba</span>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
       <!-- SECTION-6  -->
       <div class="container-fluid sec6-container my-5">
@@ -249,20 +265,74 @@
           <p class="m-0">Our Clients</p>
           <h3>The Extended Family</h3>
         </div>
-        <div class="row">
-          <div class="col-3">
-            <img src="https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid sec6-img">
+        <div class="row mx-3">
+          <div class="col-lg-3">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <img src="https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1596444432493-11bcb4d54a86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+              </div>
           </div>
-          <div class="col-3">
-            <img src="https://images.pexels.com/photos/674884/pexels-photo-674884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid sec6-img">
+          <div class="col-lg-3">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <img src="https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1596444432493-11bcb4d54a86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+              </div>
           </div>
-          <div class="col-3">
-            <img src="https://images.pexels.com/photos/163774/star-vehicle-pkw-mercedes-163774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid sec6-img">
+          <div class="col-lg-3">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <img src="https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1596444432493-11bcb4d54a86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+              </div>
           </div>
-          <div class="col-3">
-            <img src="https://images.pexels.com/photos/674048/pexels-photo-674048.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" class="img-fluid sec6-img">
+          <div class="col-lg-3">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                      <img src="https://images.pexels.com/photos/812875/pexels-photo-812875.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1596444432493-11bcb4d54a86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+                  <div class="item">
+                      <img src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid sec6-img">
+                  </div>
+              </div>
           </div>
-        </div>
+      </div>
+  
+  
       </div>
 
       <!-- SECTION-6  -->
@@ -296,19 +366,20 @@
         </div>
       </div>
 
-      <!-- SECTION-7  -->
+      <!-- SECTION-7  -->    
+      </div>
+  
 
-    </div>
-    
 
 
   </body>
 
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- 
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </html>
