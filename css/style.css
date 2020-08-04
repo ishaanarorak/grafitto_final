@@ -607,13 +607,14 @@ opacity:1;
     	
 .gal img{ 
     width: 100%; 
+    height: auto;
     padding: 7px 0;
 }
 
 @media (max-width: 500px) {		
 		.gal {
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 	}		
 	}
