@@ -288,7 +288,7 @@ body{
 
     /* Overlay Box */
 
-    #small-dialog {
+    #small-dialog1, #small-dialog2, #small-dialog3 {
         background: #ededed;
         padding: 40px 50px;
         text-align: left;
