@@ -1,4 +1,91 @@
 
+$(document).ready(function() {
+	$('.popup-gallery1').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+
+$(document).ready(function() {
+	$('.popup-gallery2').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+
+$(document).ready(function() {
+	$('.popup-gallery3').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+
+$(document).ready(function() {
+	$('.popup-gallery4').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+
+
+// WOW JS
+
+new WOW().init();
+
+
+
 // Open youtube Button
 
 $(document).ready(function() {
@@ -66,72 +153,5 @@ $(document).ready(function(){
    autoplay: true,
    center: true
 });
-});
-
-
-
-
-$(document).ready(function() {
-    $('.image-link').magnificPopup({type:'image'});
-  });
-
-$(document).ready(function() {
-	$('.popup-gallery1').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
-	});
-});
-
-$(document).ready(function() {
-	$('.popup-gallery2').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
-	});
-});
-
-$(document).ready(function() {
-	$('.popup-gallery3').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
-	});
 });
 

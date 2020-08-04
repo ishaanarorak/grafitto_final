@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="css/owl.carousel.css">
       <link rel="stylesheet" href="css/owl.theme.default.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
       <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
       <script src="https://kit.fontawesome.com/1b9375a91d.js" crossorigin="anonymous"></script>
 
@@ -18,7 +19,7 @@
     <!-- NAVBAR  -->
 
     <div class="container-fluid main-container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg" id="sticky-header">
         <a class="navbar-brand">
           <video class="" height="80" width="180" autoplay muted> 
             <source src="media/logo-e.webm" >
@@ -32,11 +33,11 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <div class="navbar-nav float-right text-right">
             <a class="nav-item" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item" href="#">About</a>
-            <a class="nav-item" href="#">Services</a>
-            <a class="nav-item" href="#">Works</a>
-            <a class="nav-item" href="#">Clients</a>
-            <a class="nav-item" href="#">Contacts</a>
+            <a class="nav-item" href="#about">About</a>
+            <a class="nav-item" href="#service">Services</a>
+            <a class="nav-item" href="gallery.html">Works</a>
+            <a class="nav-item" href="#testimonials">Clients</a>
+            <a class="nav-item" href="#contact">Contacts</a>
           </div>
         </div>
       </nav>
@@ -50,9 +51,9 @@
       <div class="container-fluid sec1-container">
         <div class="row">
           
-            <div class="col-md-6 ">
+            <div class="col-md-6">
               <div class="container sec1-heading p-2 my-5">
-                <h1>
+                <h1 class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
                   We're a 
                   <span class="sdw">digital</span><br>
                   <span class="sdw">agency.</span> 
@@ -114,7 +115,7 @@
 
       <!-- SECTION-3  -->
 
-      <div class="sec3-container">
+      <div class="sec3-container" id="services">
         <div class="sec3-heading">
           <h1>Services</h1>
           <h6>WE WORK WITH YOU, NOT FOR YOU</h6>
@@ -172,7 +173,7 @@
 
       <!-- SECTION-4  -->
 
-      <div class="container-fluid sec4-container my-5">
+      <div class="container-fluid sec4-container my-5" id="works">
         <div class="sec4-heading m-4">
           <h1>Works</h1>
         </div>
@@ -236,7 +237,7 @@
       <!-- SECTION-4  -->
 
       <!-- SECTION-5  -->
-      <div class="section-5">
+      <div class="section-5" id="testimonials">
         <section class="testimonials">
             <div class="container">
                 <div class="title">
@@ -439,6 +440,8 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
