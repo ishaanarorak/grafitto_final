@@ -2,7 +2,7 @@
 // Open youtube Button
 
 $(document).ready(function() {
-	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+	$('.popup-youtube').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
@@ -45,10 +45,6 @@ $(document).ready(function(){
    center: true
 });
 });
-
-var x = document.getElementById("logo").autoplay;
-console.log(x)
-
 
 $(document).ready(function() {
     $('.image-link').magnificPopup({type:'image'});
