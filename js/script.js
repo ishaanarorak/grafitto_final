@@ -33,7 +33,7 @@ $(document).ready(function() {
 		image: {
 			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
 			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+				return item.el.attr('title') + '<small>by Grafitto</small>';
 			}
 		}
 	});
@@ -82,10 +82,16 @@ $(document).ready(function() {
 
 // WOW JS
 
-new WOW().init();
-
-
-
+wow = new WOW(
+	{
+	boxClass:     'wow',      // default
+	animateClass: 'animated', // default
+	offset:       0,          // default
+	mobile:       true,       // default
+	live:         true        // default
+  }
+  )
+  wow.init();
 // Open youtube Button
 
 $(document).ready(function() {
