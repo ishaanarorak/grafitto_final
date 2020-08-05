@@ -67,7 +67,7 @@ body{
     }
 
     .sec1-heading h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         
     }
     
@@ -81,11 +81,14 @@ body{
 
    .sec1-heading h1{
     color: #292929;
+   }
 
+   span.sdw{
+       color: #0099AB;
    }
    @media screen and (min-width: 651px) {   
         .sec1-heading h1{
-            font-size: 4.5rem;
+            font-size: 3.7rem;
             text-align: left;
            
         }
@@ -105,9 +108,9 @@ body{
     }
 
     /* Button  */
-    .container.button{
+    /* .container.button{
         margin-left: 0;
-    }
+    } */
 
     @media screen and (max-width: 650px) {  
         .reel-btn{
@@ -296,9 +299,11 @@ body{
 
     /* card  */
 
-        .card-inner{
+        
+
+        /* .card-inner{
             height: auto;
-        }
+        } */
 
         .hvr-sweep-to-top {
             display: inline-block;
@@ -335,6 +340,7 @@ body{
           }
           .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
             color: white;
+            
           }
           .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
             -webkit-transform: scaleY(1);
@@ -355,13 +361,20 @@ body{
     }
     
     .card-inner{
+        height: auto;
+        width: 100%;
         transition: all 0.4s; 
         -webkit-transition: all 0.4s ;
-        margin: 20px;
+        /* margin: 20px; */
         margin-top: 40px;
         padding: 20px;
         padding-bottom: 30px;
         text-align: center;        
+    }
+
+    .card-vector{
+        height: 170px;
+        width: 150px;
     }
 
     /* Overlay Box */
@@ -484,6 +497,7 @@ body{
     div.col-sm-4{
         padding: 0;
     }
+
 
     /* TEXT  */
         .middle {
@@ -640,7 +654,7 @@ opacity:1;
         }
 
     /* Map  */
-    .map{
+    /* .map{
         position:relative;
     }
 
@@ -652,7 +666,7 @@ opacity:1;
     #gmap_canvas{
         width: 25rem;
         height: 15rem;
-    }
+    } */
         
 
 
