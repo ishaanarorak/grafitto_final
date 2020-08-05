@@ -813,7 +813,7 @@ opacity:1;
 .about_banner{
     width: 100%;
     height: 300px;
-    background: url(/media/banner.jpg);
+    background: url("/media/banner.jpg");
     background-size: cover;
     background-position: center;
 }
