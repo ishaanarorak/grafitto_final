@@ -155,3 +155,14 @@ $(document).ready(function(){
 });
 });
 
+// Vector 
+
+document.getElementsByClassName("card-inner").addEventListener("mouseover", function() {
+    document.getElementsByClassName("card-vector").style.fill = "#f9f9f9";
+});
+    
+document.getElementsByClassName("card-inner").addEventListener("mouseout", function() {
+    document.getElementsByClassName("card-vector").style.fill = "#292929";
+});
+
+

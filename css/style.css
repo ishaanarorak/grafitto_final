@@ -340,6 +340,7 @@ body{
           }
           .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
             color: white;
+            fill: #f9f9f9;
             
           }
           .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
@@ -373,8 +374,13 @@ body{
     }
 
     .card-vector{
-        height: 170px;
-        width: 150px;
+        height: 120px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .vector{
+        text-align: center;
     }
 
     /* Overlay Box */
@@ -479,6 +485,8 @@ body{
             transition-timing-function: ease-in-out;
             outline: none;
         }
+
+
 
 /* SECTION-3 */
 
@@ -632,6 +640,7 @@ opacity:1;
         .sec6-img{
             display: block;
             max-height: 160px;
+            
         }
 
 
