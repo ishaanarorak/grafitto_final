@@ -26,6 +26,7 @@ body{
     margin: 0;
     border: 0;
     font-family: "Montserrat";
+    overflow-x: hidden;
 }
 
 
