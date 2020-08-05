@@ -677,35 +677,41 @@ opacity:1;
 
 /* SECTION-7 */
 
-    .sec7-container{
-        text-align: center;
+    .responsive {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
     }
 
-    /* address */
-        .address h5{
-            font-size: 2.2rem;
+    .member-profile .col-lg-4 {
+        padding: 0;
+    }
+
+    .member-profile{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        }
+
+        .member-profile h2{
+            font-size: 2.0em;
+            margin-bottom: 0;
+        }
+
+        .member-profile h5{
+            font-size: 1em;
+        }
+
+        .fa-facebook, .fa-instagram, .fa-linkedin-in{
+            margin: 0 10px;
+            font-size: 1.5em;
             color: #0099AB;
         }
 
-        .address p{
-            color: #292929;
+        .fa-facebook:hover, .fa-instagram:hover, .fa-linkedin-in:hover{
+        color: #097885;
         }
-
-    /* Map  */
-    /* .map{
-        position:relative;
-    }
-
-    .gmap_canvas {
-        overflow:hidden;
-        background:none!important;
-    }
-
-    #gmap_canvas{
-        width: 25rem;
-        height: 15rem;
-    } */
-        
+            
 
 
 /* SECTION-7 */
