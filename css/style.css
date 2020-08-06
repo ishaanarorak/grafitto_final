@@ -426,13 +426,40 @@ body{
         text-align: center;        
     }
 
-    path.card-vector{
+    /* path.card-vector{
         font-size: 5px;
     }
 
     .vector{
         text-align: center;
+    } */
+
+    /* Card Image  */
+
+    .card-img{
+        position: relative;
+        height: 150px;
+        margin-bottom: 20px;
+        overflow: hidden; 
+        text-align: center;
     }
+    .img1{
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        height: inherit;   
+    }
+    .img2{
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        display: none;
+        /* transform: translate(55%, -1%); */
+       
+        height: inherit;
+    }
+
+
 
     /* Overlay Box */
 
@@ -693,12 +720,24 @@ opacity:1;
             display: block;
             max-width: 160px;
             height: auto;
+            margin: auto;
+        }
+
+        .sec6-row{
+            text-align: center;
+        }
+        div.owl-item{
+            text-align: center;
         }
 
 
 /* SECTION-6 */
 
 /* SECTION-7 */
+
+        .sec7-heading h1{
+            text-align: center;
+        }
 
     .responsive {
         width: 100%;
@@ -751,6 +790,7 @@ opacity:1;
 
     .sec8-heading{
         color: #f9f9f9;
+        text-align: center;
     }
 
     .sec8-heading h1{
@@ -778,6 +818,7 @@ opacity:1;
 
     .btn-div{
         padding: 40px 0 40px 0;
+        text-align: center;
     }
 
     .form-btn{
@@ -819,6 +860,7 @@ opacity:1;
     background: url(/media/footer.png);
     background-repeat: no-repeat;
     background-position: center center;
+    text-align: center;
 }
 
 .backcol{

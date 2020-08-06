@@ -163,12 +163,36 @@ $(document).ready(function(){
 
 // Vector 
 
-document.getElementsByClassName("card-inner").addEventListener("mouseover", function() {
-    document.getElementsByClassName("card-vector").style.fill = "#f9f9f9";
-});
+// document.getElementsByClassName("card-inner").addEventListener("mouseover", function() {
+//     document.getElementsByClassName("card-vector").style.fill = "#f9f9f9";
+// });
     
-document.getElementsByClassName("card-inner").addEventListener("mouseout", function() {
-    document.getElementsByClassName("card-vector").style.fill = "#292929";
+// document.getElementsByClassName("card-inner").addEventListener("mouseout", function() {
+//     document.getElementsByClassName("card-vector").style.fill = "#292929";
+// });
+
+$("#card1").hover(function(){
+    $("#img-id1").css("display", "none");
+    $("#img-id2").css("display", "block");  
+  }, function(){
+	$("#img-id1").css("display", "block");
+	$("#img-id2").css("display", "none");
+});
+
+$("#card2").hover(function(){
+    $("#img-id3").css("display", "none");
+    $("#img-id4").css("display", "block");  
+  }, function(){
+	$("#img-id3").css("display", "block");
+	$("#img-id4").css("display", "none");
+});
+
+$("#card3").hover(function(){
+    $("#img-id5").css("display", "none");
+    $("#img-id6").css("display", "block");  
+  }, function(){
+	$("#img-id5").css("display", "block");
+	$("#img-id6").css("display", "none");
 });
 
 
