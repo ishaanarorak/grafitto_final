@@ -90,16 +90,16 @@ $(document).ready(function() {
 //     } 
 // };
 
-$(window).on('load', function() { // makes sure the whole site is loaded 
-	$('#status').fadeOut(
+// $(window).on('load', function() { // makes sure the whole site is loaded 
+// 	$('#status').fadeOut(
 		
-	); // will first fade out the loading animation 
-	console.log("hit");
-	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-	console.log("hit");
-	$('body').delay(350).css({'overflow':'visible'});
-	console.log("hit");  
-})
+// 	); // will first fade out the loading animation 
+// 	console.log("hit");
+// 	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+// 	console.log("hit");
+// 	$('body').delay(350).css({'overflow':'visible'});
+// 	console.log("hit");  
+// })
 
 // WOW JS
 
@@ -124,26 +124,6 @@ $(document).ready(function() {
 		preloader: false,
 
 		fixedContentPos: false
-	});
-});
-
-// MODAL BOXES
-
-$(document).ready(function() {
-	$('.popup-with-zoom-anim').magnificPopup({
-		type: 'inline',
-
-		fixedContentPos: false,
-		fixedBgPos: true,
-
-		overflowY: 'auto',
-
-		closeBtnInside: true,
-		preloader: false,
-		
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-zoom-in'
 	});
 });
 
