@@ -1,114 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+    <head>
+        <base target="_top">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/bootstrap.min.css'>
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+        <form name="submit-to-google-sheet">
+            <input name="email" type="email" placeholder="Email" required>
+            <button type="submit">Send</button>
+          </form>
+<script src="js/jquery.js"></script>
 
-    <style>
-        .card-img{
-            position: relative;
-            height: 40px;
-            margin-bottom: 20px;
-        }
-        .im-1{
-        position: relative;
-        margin: 0 auto;
-        display: block;
-    }
-        .im-2{
-            position: absolute;
-            top: 0;
-            left: 45%;
-            display: none;
-            transition: all 0.3s;
-        }
-    </style>
-    <script src="https://kit.fontawesome.com/1b9375a91d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="row mx-5">
-        <div class="col-lg-4 col-md-12" >
-            <div id="card" class="card-inner border border-primary position-relative">
-                <div class="card-img">
-                    <img src="media/icons8-shopping-cart-50.png" alt="" class="im-1">
-                    <img src="media/date-box-bg.png" alt="" class="im-2">
-                </div>
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis </p>
-            </div>
-            <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
-              <h1>Graphic Designing</h1>
-              <p>Leverage our graphic & designing resources to make an impact and create a beautiful brand that defines you.</p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-12">
-            <div id="card1" class="card-inner border border-primary position-relative">
-                <div class="card-img">
-                    <img src="media/icons8-shopping-cart-50.png" alt="" class="im-1">
-                    <img src="media/date-box-bg.png" alt="" class="im-2">
-                </div>
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis </p>
-            </div>
-            <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
-              <h1>Graphic Designing</h1>
-              <p>Leverage our graphic & designing resources to make an impact and create a beautiful brand that defines you.</p>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-12" >
-            <div id="card2" class="card-inner border border-primary position-relative">
-                <div class="card-img">
-                    <img src="media/icons8-shopping-cart-50.png" alt="" class="im-1">
-                    <img src="media/date-box-bg.png" alt="" class="im-2">
-                </div>
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo quisquam quam eveniet porro quasi perferendis </p>
-            </div>
-            <div id="small-dialog1" class="zoom-anim-dialog mfp-hide">
-              <h1>Graphic Designing</h1>
-              <p>Leverage our graphic & designing resources to make an impact and create a beautiful brand that defines you.</p>
-            </div>
-        </div>
-        
-    </div>
+        <script>
+const proxyurl = "https://cors-anywhere.herokuapp.com/";
+const url = "https://example.com"; // site that doesn’t send Access-Control-*
+fetch(proxyurl + url) // https://cors-anywhere.herokuapp.com/https://example.com
+.then(response => response.text())
+.then(contents => console.log(contents))
+.catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyBY235xQJTU9lon0INL3lp7v-dy5sIGMTXZ8yURA/exec'
+  const form = document.forms['submit-to-google-sheet']
 
-
-
-    <!-- ===================================================================== -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    
-    <script>
-    //   $("#card").mouseover(function(){
-    //   $("im-2").css("display", "block");
-    //   $("im-1").css("display", "none");
-    //   console.log("trigger 1")
-    // });
-
-    // $("#card").mouseout(function(){
-    //   $("im-1").css("display", "block");
-    //   $("im-2").css("display", "none");
-    //   console.log("trigger 1")
-    // });
-    $("#card").hover(function(){
-    $(".im-1").css("display", "none");
-    $(".im-2").css("display", "block");  
-  }, function(){
-  $(".im-1").css("display", "block");
-  $(".im-2").css("display", "none");
-
-});
-    </script>
-</body>
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+        </script>
+    </body>
 </html>
+
