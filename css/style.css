@@ -512,14 +512,6 @@ body{
         text-align: center;        
     }
 
-    /* path.card-vector{
-        font-size: 5px;
-    }
-
-    .vector{
-        text-align: center;
-    } */
-
     /* Card Image  */
 
     .card-img{
@@ -544,20 +536,6 @@ body{
        
         height: inherit;
     }
-
-
-
-    /* Overlay Box */
-
-    #small-dialog1, #small-dialog2, #small-dialog3 {
-        background: #ededed;
-        padding: 40px 50px;
-        text-align: left;
-        max-width: 600px;
-        margin: 80px auto;
-        position: relative;
-    }
-    
     
     /**
      * Fade-zoom animation for first dialog
