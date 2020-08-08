@@ -23,7 +23,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff;
+    background-color: #f9f9f9;
     /* change if the mask should have another color then white */
     z-index: 99;
     /* makes sure it stays on top */
@@ -31,14 +31,14 @@
 }
   
   #status {
-    width: 200px;
+    width: 300px;
     height: 200px;
     position: absolute;
-    left: 50%;
+    left: 45%;
     /* centers the loading animation horizontally one the screen */
-    top: 50%;
+    top: 45%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+    background-image: url(/media/Loader\ 24.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -64,7 +64,7 @@ body{
     margin: 0;
     border: 0;
     font-family: "Montserrat";
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -869,13 +869,15 @@ opacity:1;
       }
 
 /* SECTION-8 */
-
+.honeypot-field {
+    display: none;
+  }
 /* FOOTER  */
 
 .page-footer{
     background: url(/media/footer.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     text-align: center;
 }
 
