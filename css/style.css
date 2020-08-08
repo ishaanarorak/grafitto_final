@@ -16,6 +16,7 @@
 
   /* Loader CSS */
 
+
   #preloader {
     position: fixed;
     top: 0;
@@ -26,7 +27,7 @@
     /* change if the mask should have another color then white */
     z-index: 99;
     /* makes sure it stays on top */
-    transition: visibility 1s;
+    transition: visibility 1s linear;
 }
   
   #status {
@@ -43,6 +44,10 @@
     background-position: center;
     margin: -100px 0 0 -100px;
     /* is width and height divided by two */
+  }
+
+  .browserupgrade{
+      color: #292929;
   }
   
 .main-container{
