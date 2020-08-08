@@ -95,6 +95,7 @@ $(document).ready(function() {
 	});
 });
 
+
 // Loader JS
 
 $(window).on('load', function() { // makes sure the whole site is loaded 
@@ -119,7 +120,8 @@ wow = new WOW(
   }
   )
   wow.init();
-// Open youtube Button
+
+  // Open youtube Button
 
 $(document).ready(function() {
 	$('.popup-youtube').magnificPopup({
