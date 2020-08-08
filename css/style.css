@@ -85,9 +85,24 @@ body{
 
 /* NAVBAR */
     /* Style the links inside the nav bar */
-    nav{
+    #sticky-header{
         background-color: #f9f9f9;
+        position: fixed; /* Make it stick/fixed */
+        top: 0; /* Stay on top */
+        left: 0;
+        width: 100%; /* Full width */
+        transition: top 0.3s; /* Transition effect when sliding down (and up) */
+        z-index: 999;
+        padding: 0;
         /* opacity: 70%; */
+    }
+
+    .main-index{
+        margin-top: 150px;
+    }
+
+    .main-gallery{
+        margin-top: 90px;
     }
   
     .nav-item {
@@ -140,7 +155,7 @@ body{
 /* SECTION-1 */
 
 .sec1-container{
-    height: 70vh;
+    height: auto;
 }
 
 @media (max-width:370px) {
@@ -171,7 +186,7 @@ body{
     
 }
 
-@media (min-width:371px) and (max-width: 650px) {   
+@media (min-width:371px) and (max-width: 767px) {   
     .sec1-container{
         height: auto;
         text-align: center;
@@ -199,7 +214,7 @@ body{
    span.sdw{
        color: #0099AB;
    }
-   @media screen and (min-width: 651px) {   
+   @media screen and (min-width: 768px) {   
         .sec1-heading h1{
             font-size: 3.7rem;
             text-align: left;
