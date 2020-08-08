@@ -82,24 +82,13 @@ $(document).ready(function() {
 // Loader JS
 
 
-// document.onreadystatechange = function() { 
-//     if (document.readyState !== "complete") { 
-//         document.querySelector("body").style.visibility = "hidden"; 
-// 		document.querySelector("#preloader").style.visibility = "visible";
-		
-//     } else { 
-//         document.querySelector("#preloader").style.display = "none"; 
-// 		document.querySelector("body").style.visibility = "visible"; 
-
-//     } 
-// };
-
 $(window).on('load', function() { // makes sure the whole site is loaded 
 	$('#status').fadeOut(); // will first fade out the loading animation 
 	console.log("hit");
 	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
 	console.log("hit");
-	$('body').delay(350).css({'overflow':'visible'});
+	$('body').delay(350).css({'overflow':'visible',
+							   'overflow-x':'hidden'});
 	console.log("hit");  
 })
 
