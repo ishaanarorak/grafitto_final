@@ -38,7 +38,7 @@
     /* centers the loading animation horizontally one the screen */
     top: 45%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(/media/Loader\ 24.gif);
+    background-image: url(/media/Loader\ 2.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -92,7 +92,8 @@ body{
         left: 0;
         width: 100%; /* Full width */
         transition: top 0.3s; /* Transition effect when sliding down (and up) */
-        z-index: 999;
+        z-index: 98;
+        box-shadow: #0a0a0a03 3px;
         padding: 0;
         /* opacity: 70%; */
     }
@@ -733,8 +734,8 @@ text-align: center;
 padding-top:30px;
 }
 .testimonials .slider-indicator img{
-max-height:80px;
-max-width:80px;
+height:80px;
+width:80px;
 border-radius:50%;
 display: inline-block;
 margin:0 8px;
@@ -747,6 +748,9 @@ transition: opacity 1s ease;
 opacity:1;
 }
 
+.mfp-title{
+    display: none !important;
+}
 /* Section-5 */
 
 /* SECTION-6 */
