@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: "MontserratBold";
-    src: url("/fonts/Montserrat-Bold.otf") format("otf")
+    src: url("https://ishaanarorak.github.io/grafitto_final/fonts/Montserrat-Bold.otf") format("otf")
   }
 
   @font-face {
     font-family: "MontserratMedium";
-    src: url("/fonts/Montserrat-Medium.otf") format("otf")
+    src: url("https://ishaanarorak.github.io/grafitto_final/fonts/Montserrat-Medium.otf") format("otf")
   }
   @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat-Regular.otf") format("otf")
+    src: url("https://ishaanarorak.github.io/grafitto_final/fonts/Montserrat-Regular.otf") format("otf")
   }
 
   /* Loader CSS */
@@ -38,7 +38,7 @@
     /* centers the loading animation horizontally one the screen */
     top: 45%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(/media/Loader\ 24.gif);
+    background-image: url(https://ishaanarorak.github.io/grafitto_final/media/Loader\ 24.gif);
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -497,14 +497,6 @@ body{
         text-align: center;        
     }
 
-    /* path.card-vector{
-        font-size: 5px;
-    }
-
-    .vector{
-        text-align: center;
-    } */
-
     /* Card Image  */
 
     .card-img{
@@ -543,11 +535,7 @@ body{
         position: relative;
     }
     
-    
-    /**
-     * Fade-zoom animation for first dialog
-     */
-    
+     
     /* start state */
     .my-mfp-zoom-in .zoom-anim-dialog {
         opacity: 0;
@@ -839,7 +827,7 @@ opacity:1;
 /* SECTION-8  */
 
     .sec8-container{
-        background:url(/media/graff.jpg);
+        background:url(https://ishaanarorak.github.io/grafitto_final/media/graff.jpg);
         background-position: center center;
         background-size: cover;
     }
@@ -919,7 +907,7 @@ opacity:1;
 /* FOOTER  */
 
 .page-footer{
-    background: url(/media/footer.png);
+    background: url(https://ishaanarorak.github.io/grafitto_final/media/footer.png);
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -939,7 +927,7 @@ opacity:1;
 .about_banner{
     width: 100%;
     height: 300px;
-    background: url("/media/banner.jpg");
+    background: url("https://ishaanarorak.github.io/grafitto_final/media/banner.jpg");
     background-size: cover;
     background-position: center;
 }
