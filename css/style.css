@@ -187,7 +187,7 @@ body{
     
 }
 
-@media (min-width:371px) and (max-width: 767px) {   
+@media (min-width:371px) and (max-width: 770px) {   
     .sec1-container{
         height: auto;
         text-align: center;
@@ -215,7 +215,7 @@ body{
    span.sdw{
        color: #0099AB;
    }
-   @media screen and (min-width: 768px) {   
+   @media screen and (min-width: 771px) {   
         .sec1-heading h1{
             font-size: 3.7rem;
             text-align: left;
@@ -226,13 +226,13 @@ body{
     }
 
     /* Video  */
-    @media (min-width:371px) and (max-width: 650px) {   
+    @media (min-width:371px) and (max-width: 770px) {   
         .banner-animation{
             width: 315px;
             text-align: center;
         }
     }
-    @media screen and (min-width: 651px) {   
+    @media screen and (min-width: 771px) {   
         .banner-animation{
             width: 600px;
         }
@@ -976,4 +976,8 @@ opacity:1;
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
 	}		
-	}
+}
+
+a.mail{
+    color: #292929;
+}
