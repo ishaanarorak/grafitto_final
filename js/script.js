@@ -55,6 +55,7 @@ $(document).ready(function() {
 	});
 });
 
+
 $(document).ready(function() {
 	$('.popup-gallery3').magnificPopup({
 		delegate: 'a',
@@ -74,6 +75,7 @@ $(document).ready(function() {
 		}
 	});
 });
+
 
 $(document).ready(function() {
 	$('.popup-gallery4').magnificPopup({
@@ -119,11 +121,13 @@ wow = new WOW(
 	live:         true        // default
   }
   )
+  
   wow.init();
 
   // Open youtube Button
 
-$(document).ready(function() {
+
+  $(document).ready(function() {
 	$('.popup-youtube').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
