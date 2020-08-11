@@ -31,14 +31,14 @@
 }
   
   #status {
-    width: 300px;
+    width: 500px;
     height: 200px;
     position: absolute;
-    left: 45%;
+    left: 38%;
     /* centers the loading animation horizontally one the screen */
     top: 45%;
     /* centers the loading animation vertically one the screen */
-    background-image: url(/media/Loader\ 2.gif);
+    background-image: url("/media/Loader\ 2.gif");
     /* path to your loading animation */
     background-repeat: no-repeat;
     background-position: center;
@@ -836,7 +836,7 @@ opacity:1;
 /* SECTION-8  */
 
     .sec8-container{
-        background:url(/media/graff.jpg);
+        background:url("/media/graff.jpg");
         background-position: center center;
         background-size: cover;
     }
@@ -909,14 +909,14 @@ opacity:1;
         color: #ededed;
       }
 
+      .honeypot-field {
+          display: none;
+        }
 /* SECTION-8 */
-.honeypot-field {
-    display: none;
-  }
 /* FOOTER  */
 
 .page-footer{
-    background: url(/media/footer.png);
+    background: url("/media/footer.png");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
