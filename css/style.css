@@ -31,10 +31,10 @@
 }
   
   #status {
-    width: 300px;
+    width: 500px;
     height: 200px;
     position: absolute;
-    left: 45%;
+    left: 38%;
     /* centers the loading animation horizontally one the screen */
     top: 45%;
     /* centers the loading animation vertically one the screen */

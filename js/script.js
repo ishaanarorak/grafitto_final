@@ -16,6 +16,7 @@ window.onscroll = function() {
 
 
 $(document).ready(function() {
+	// Gallery 1
 	$('.popup-gallery1').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -33,9 +34,8 @@ $(document).ready(function() {
 			}
 		}
 	});
-});
 
-$(document).ready(function() {
+	// Gallery 2
 	$('.popup-gallery2').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -53,10 +53,8 @@ $(document).ready(function() {
 			}
 		}
 	});
-});
 
-
-$(document).ready(function() {
+	// Gallery 3
 	$('.popup-gallery3').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -74,10 +72,8 @@ $(document).ready(function() {
 			}
 		}
 	});
-});
 
-
-$(document).ready(function() {
+	// Gallery 4
 	$('.popup-gallery4').magnificPopup({
 		delegate: 'a',
 		type: 'image',
@@ -95,7 +91,29 @@ $(document).ready(function() {
 			}
 		}
 	});
+
+	// YouTube Popup
+
+	$('.popup-youtube').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+
+	// Owl-Carousel
+	$('.owl-carousel').owlCarousel({
+		loop: true,
+		items: 1,
+		dots: false,
+		autoplay: true,
+		center: true
+	 });
 });
+
 
 
 // Loader JS
@@ -124,20 +142,6 @@ wow = new WOW(
   
   wow.init();
 
-  // Open youtube Button
-
-
-  $(document).ready(function() {
-	$('.popup-youtube').magnificPopup({
-		disableOn: 700,
-		type: 'iframe',
-		mainClass: 'mfp-fade',
-		removalDelay: 160,
-		preloader: false,
-
-		fixedContentPos: false
-	});
-});
 
 // Testimonials
 
@@ -163,16 +167,6 @@ const indicatorImages=document.querySelector(".slider-indicator").children;
 
 
 // Client List Carousel
-
-$(document).ready(function(){
-   $('.owl-carousel').owlCarousel({
-   loop: true,
-   items: 1,
-   dots: false,
-   autoplay: true,
-   center: true
-});
-});
 
 
 $("#card1").hover(function(){
